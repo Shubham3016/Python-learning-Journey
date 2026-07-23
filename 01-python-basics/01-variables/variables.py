@@ -3,31 +3,6 @@
 PYTHON VARIABLES - COMPLETE BEGINNER GUIDE
 ==========================================================
 
-Topic: Python Variables
-Level: Beginner
-File: variables.py
-
-What you will learn:
-1. What is a variable?
-2. How to create variables
-3. Different data types
-4. How to print variables
-5. How to check data types
-6. Variable naming rules
-7. Reassigning variables
-8. Multiple variable assignment
-9. Using variables in calculations
-10. Taking user input
-11. Type conversion
-12. f-Strings
-13. None
-14. Constants
-15. Common beginner mistakes
-16. Mini project
-
-==========================================================
-"""
-
 
 # ==========================================================
 # 1. WHAT IS A VARIABLE?
