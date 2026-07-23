@@ -1,11 +1,5 @@
 
 
-When you open this on GitHub, GitHub automatically formats headings, tables, code blocks, diagrams, bold text, and links into a nice document.
-
-You don't need HTML or web development knowledge.
-
----
-
 ### `variables.py` = Actual runnable code
 
 Don't put your entire textbook inside Python comments.
