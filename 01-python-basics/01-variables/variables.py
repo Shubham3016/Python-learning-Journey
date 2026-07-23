@@ -2,9 +2,6 @@
 
 ### `variables.py` = Actual runnable code
 
-Don't put your entire textbook inside Python comments.
-
-Keep actual examples here:
 
 ```python
 # =========================================
