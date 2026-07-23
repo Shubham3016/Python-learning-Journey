@@ -53,7 +53,7 @@ For example:
 
 ```text
 ┌─────────────────┐
-│    "Shubham"    │
+│    "Bob"    │
 └─────────────────┘
        name
 
@@ -69,7 +69,7 @@ In programming, we can think of these labeled boxes as **variables**.
 In Python:
 
 ```python
-name = "Shubham"
+name = "Bob"
 age = 28
 ```
 
@@ -78,7 +78,7 @@ A simple way to think about it:
 ```text
 Variable Name          Value
 
-    name    ────────► "Shubham"
+    name    ────────► "Bob"
 
     age     ────────► 28
 ```
@@ -94,13 +94,13 @@ Variable Name          Value
 Creating a variable in Python is very simple.
 
 ```python
-name = "Shubham"
+name = "Bob"
 ```
 
 Let's break it down:
 
 ```text
-name      =      "Shubham"
+name      =      "Bob"
 
  ↓        ↓          ↓
 
@@ -145,16 +145,16 @@ city ─────────► "Mumbai"
 Imagine writing:
 
 ```python
-print("Shubham")
-print("Shubham")
-print("Shubham")
-print("Shubham")
+print("Bob")
+print("Bob")
+print("Bob")
+print("Bob")
 ```
 
-Instead of repeating `"Shubham"`, we can store it in a variable.
+Instead of repeating `"Bob"`, we can store it in a variable.
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 print(name)
 print(name)
@@ -165,10 +165,10 @@ print(name)
 Output:
 
 ```text
-Shubham
-Shubham
-Shubham
-Shubham
+Bob
+Bob
+Bob
+Bob
 ```
 
 Now suppose we want to change the name.
@@ -197,7 +197,7 @@ Variables help us:
 Consider:
 
 ```python
-name = "Shubham"
+name = "Bob"
 age = 28
 salary = 70000
 ```
@@ -206,7 +206,7 @@ For now, imagine:
 
 ```text
 ┌──────────┐        ┌─────────────┐
-│   name   │ ─────► │  "Shubham"  │
+│   name   │ ─────► │  "Bob"  │
 └──────────┘        └─────────────┘
 
 ┌──────────┐        ┌─────────────┐
@@ -234,7 +234,7 @@ The most common beginner data types are:
 
 | Data Type | Meaning | Example |
 |---|---|---|
-| `str` | Text | `"Shubham"` |
+| `str` | Text | `"Bob"` |
 | `int` | Whole Number | `28` |
 | `float` | Decimal Number | `5.8` |
 | `bool` | True or False | `True` |
@@ -249,7 +249,7 @@ Let's understand each one.
 Strings are used to store **text**.
 
 ```python
-name = "Shubham"
+name = "Bob"
 city = "Mumbai"
 job_role = "Data Analyst"
 ```
@@ -269,7 +269,7 @@ or:
 Examples:
 
 ```python
-first_name = "Shubham"
+first_name = "Bob"
 
 company = "ABC Technologies"
 
@@ -394,7 +394,7 @@ It tells us the type of a value.
 Example:
 
 ```python
-name = "Shubham"
+name = "Bob"
 age = 28
 height = 5.8
 is_employee = True
@@ -435,7 +435,7 @@ This is a Float.
 We simply write:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 age = 28
 
@@ -445,7 +445,7 @@ salary = 70000.50
 Python understands:
 
 ```text
-"Shubham"   → str
+"Bob"   → str
 
 28          → int
 
@@ -537,7 +537,7 @@ Python has some rules for naming variables.
 Valid:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 age = 28
 
@@ -577,7 +577,7 @@ student1 = "Rahul"
 Valid:
 
 ```python
-first_name = "Shubham"
+first_name = "Bob"
 
 last_name = "More"
 
@@ -593,13 +593,13 @@ The underscore `_` helps separate words.
 ❌ Wrong:
 
 ```python
-first name = "Shubham"
+first name = "Bob"
 ```
 
 ✅ Correct:
 
 ```python
-first_name = "Shubham"
+first_name = "Bob"
 ```
 
 ---
@@ -609,9 +609,9 @@ first_name = "Shubham"
 ❌ Invalid:
 
 ```python
-user@name = "Shubham"
+user@name = "Bob"
 
-my-name = "Shubham"
+my-name = "Bob"
 
 salary$ = 70000
 ```
@@ -619,7 +619,7 @@ salary$ = 70000
 ✅ Correct:
 
 ```python
-user_name = "Shubham"
+user_name = "Bob"
 
 monthly_salary = 70000
 ```
@@ -648,7 +648,7 @@ Python variable names are **case-sensitive**.
 Consider:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 Name = "Rahul"
 
@@ -672,7 +672,7 @@ print(NAME)
 Output:
 
 ```text
-Shubham
+Bob
 Rahul
 Amit
 ```
@@ -710,7 +710,7 @@ Compare:
 ❌ Poor naming:
 
 ```python
-a = "Shubham"
+a = "Bob"
 b = 28
 c = 70000
 ```
@@ -718,7 +718,7 @@ c = 70000
 ✅ Better naming:
 
 ```python
-employee_name = "Shubham"
+employee_name = "Bob"
 
 employee_age = 28
 
@@ -738,7 +738,7 @@ Python commonly uses **snake_case** for variable names.
 Example:
 
 ```python
-first_name = "Shubham"
+first_name = "Bob"
 
 last_name = "More"
 
@@ -774,7 +774,7 @@ Use meaningful **snake_case** variable names.
 Normally, we write:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 age = 28
 
@@ -784,7 +784,7 @@ city = "Mumbai"
 Python also allows:
 
 ```python
-name, age, city = "Shubham", 28, "Mumbai"
+name, age, city = "Bob", 28, "Mumbai"
 ```
 
 Now:
@@ -798,7 +798,7 @@ print(city)
 Output:
 
 ```text
-Shubham
+Bob
 28
 Mumbai
 ```
@@ -806,7 +806,7 @@ Mumbai
 Conceptually:
 
 ```text
-name ─────────► "Shubham"
+name ─────────► "Bob"
 
 age  ─────────► 28
 
@@ -942,7 +942,7 @@ Python uses `print()` to display information.
 Example:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 age = 28
 
@@ -954,7 +954,7 @@ print(age)
 Output:
 
 ```text
-Shubham
+Bob
 28
 ```
 
@@ -969,7 +969,7 @@ print("My age is", age)
 Output:
 
 ```text
-My name is Shubham
+My name is Bob
 My age is 28
 ```
 
@@ -980,7 +980,7 @@ My age is 28
 This is very important.
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 print(name)
 
@@ -990,7 +990,7 @@ print("name")
 Output:
 
 ```text
-Shubham
+Bob
 name
 ```
 
@@ -1033,7 +1033,7 @@ f-Strings are a clean and modern way to use variables inside text.
 Example:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 age = 28
 
@@ -1043,7 +1043,7 @@ print(f"My name is {name} and I am {age} years old.")
 Output:
 
 ```text
-My name is Shubham and I am 28 years old.
+My name is Bob and I am 28 years old.
 ```
 
 How does it work?
@@ -1057,7 +1057,7 @@ The `f` tells Python that variables or expressions may appear inside `{}`.
 Python replaces:
 
 ```text
-{name} → Shubham
+{name} → Bob
 
 {age}  → 28
 ```
@@ -1095,13 +1095,13 @@ print(name)
 Suppose the user enters:
 
 ```text
-Shubham
+Bob
 ```
 
 Then:
 
 ```text
-name ─────────► "Shubham"
+name ─────────► "Bob"
 ```
 
 We can use it with an f-string:
@@ -1115,9 +1115,9 @@ print(f"Hello {name}, welcome to Python!")
 Example output:
 
 ```text
-Enter your name: Shubham
+Enter your name: Bob
 
-Hello Shubham, welcome to Python!
+Hello Bob, welcome to Python!
 ```
 
 ---
@@ -1546,15 +1546,15 @@ Remember:
 ❌ Wrong:
 
 ```python
-name = Shubham
+name = Bob
 ```
 
-Python thinks `Shubham` is another variable name.
+Python thinks `Bob` is another variable name.
 
 ✅ Correct:
 
 ```python
-name = "Shubham"
+name = "Bob"
 ```
 
 ---
@@ -1564,13 +1564,13 @@ name = "Shubham"
 ❌ Wrong:
 
 ```python
-first name = "Shubham"
+first name = "Bob"
 ```
 
 ✅ Correct:
 
 ```python
-first_name = "Shubham"
+first_name = "Bob"
 ```
 
 ---
@@ -1580,13 +1580,13 @@ first_name = "Shubham"
 ❌ Wrong:
 
 ```python
-1name = "Shubham"
+1name = "Bob"
 ```
 
 ✅ Correct:
 
 ```python
-name1 = "Shubham"
+name1 = "Bob"
 ```
 
 ---
@@ -1594,7 +1594,7 @@ name1 = "Shubham"
 ## Mistake 4: Case Mismatch
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 print(Name)
 ```
@@ -1646,7 +1646,7 @@ They are different data types.
 Let's create a simple employee profile.
 
 ```python
-employee_name = "Shubham"
+employee_name = "Bob"
 
 employee_age = 28
 
@@ -1674,7 +1674,7 @@ print(f"Currently Employed: {is_employed}")
 Output:
 
 ```text
-Employee Name: Shubham
+Employee Name: Bob
 Age: 28
 Job Role: Data Analyst
 Monthly Salary: ₹70000.5
@@ -1747,14 +1747,14 @@ Example:
 ```text
 ===== Employee Salary Calculator =====
 
-Enter employee name: Shubham
+Enter employee name: Bob
 
 Enter monthly salary: 70000
 
 
 ===== Salary Details =====
 
-Employee Name: Shubham
+Employee Name: Bob
 
 Monthly Salary: ₹70000.0
 
@@ -1862,7 +1862,7 @@ Ask the user for their name.
 Print:
 
 ```text
-Hello Shubham, welcome to Python!
+Hello Bob, welcome to Python!
 ```
 
 Use an f-string.
@@ -1917,7 +1917,7 @@ Because `x` was reassigned from `10` to `20`.
 What is wrong with this code?
 
 ```python
-first name = Shubham
+first name = Bob
 
 age = "28"
 
@@ -1974,7 +1974,7 @@ Python automatically determines the data type.
 Example:
 
 ```python
-name = "Shubham"
+name = "Bob"
 
 age = 28
 ```
@@ -2062,7 +2062,7 @@ snake_case
 Example:
 
 ```python
-first_name = "Shubham"
+first_name = "Bob"
 
 monthly_salary = 70000
 ```
@@ -2079,7 +2079,7 @@ monthly_salary = 70000
 
 # String
 
-name = "Shubham"
+name = "Bob"
 
 
 # Integer
@@ -2114,7 +2114,7 @@ print(type(name))
 
 # Multiple assignment
 
-name, age = "Shubham", 28
+name, age = "Bob", 28
 
 
 # Same value to multiple variables
@@ -2174,7 +2174,7 @@ PI = 3.14159
 Whenever you see:
 
 ```python
-name = "Shubham"
+name = "Bob"
 ```
 
 Think:
@@ -2183,7 +2183,7 @@ Think:
 Variable Name              Value/Object
 
 ┌──────────────┐         ┌──────────────┐
-│     name     │ ──────► │  "Shubham"   │
+│     name     │ ──────► │  "Bob"   │
 └──────────────┘         └──────────────┘
 ```
 
@@ -2204,7 +2204,7 @@ Find what "name" refers to
 
      ↓
 
-"Shubham"
+"Bob"
 
      ↓
 
@@ -2212,7 +2212,7 @@ Display the value
 
      ↓
 
-Shubham
+Bob
 ```
 
 ---
@@ -2226,7 +2226,7 @@ Remember these five things:
 ```text
 1. Create a variable
         ↓
-   name = "Shubham"
+   name = "Bob"
 
 2. Use meaningful names
         ↓
